@@ -351,6 +351,6 @@ def setup_seed(seed):
     torch.backends.cudnn.deterministic = True
 
 if __name__ == '__main__':
-    from config import argsshix
+    from config import args
 
     main(args)
